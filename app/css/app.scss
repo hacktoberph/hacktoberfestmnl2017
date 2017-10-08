@@ -49,11 +49,13 @@ body {
   margin: 2em 0;
 }
 
+#official {
+  max-width: 100%;
+}
+
 #Hero {
-  background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
+  background: radial-gradient(circle, #3241a6 0, #202a6b 120%);
 	color: white;
-  display: flex;
-  flex-direction: column;
 
   .intl-link {
     color: #a69732;
