@@ -52,8 +52,19 @@ body {
 #Hero {
   background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
 	color: white;
+  display: flex;
+  flex-direction: column;
 
-  h4 {
+  .intl-link {
+    color: #a69732;
+    text-decoration: none;
+
+    &:visited {
+      color: #a69732;
+    }
+  }
+
+  .manila {
     margin: 0;
   }
 }
